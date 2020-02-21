@@ -8,13 +8,13 @@
 %global pkgname %{srcname}
 
 %global common_description %{expand:
-NetApp library for Python.}
+Library to allow Ansible deployments to interact with NetApp storage systems}
 
 Name:           python-%{srcname}
 Version:        2019.12.20
 Release:        1%{?dist}
-Summary:        NetApp library for Python.
-License:        Proprietary::NetApp
+Summary:        NetApp library for Python
+License:        Redistributable, no modification permitted
 URL:            https://pypi.org/project/netapp-lib/
 Source0:        %{pypi_source}
 
@@ -57,3 +57,6 @@ rm -rf %{eggname}.egg-info
 
 
 %changelog
+* Fri Feb 21 2020 Sam P <survient@fedoraproject.org> - 2019.12.20-1
+- Initial Commit
+
