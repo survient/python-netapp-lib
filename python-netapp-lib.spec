@@ -11,8 +11,8 @@
 Library to allow Ansible deployments to interact with NetApp storage systems}
 
 Name:           python-%{srcname}
-Version:        2019.12.20
-Release:        2%{?dist}
+Version:        2020.3.12
+Release:        1%{?dist}
 Summary:        NetApp library for Python
 
 License:        Redistributable, no modification permitted
@@ -53,6 +53,9 @@ rm -rf %{eggname}.egg-info
 
 
 %changelog
+* Wed Apr 01 2020 survient <survient@fedoraproject.org> - 2020.3.12-1
+- Updated to latest release
+
 * Fri Feb 21 2020 Sam P <survient@fedoraproject.org> - 2019.12.20-2
 - Simplified spec file
 
